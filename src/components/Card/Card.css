@@ -1,5 +1,5 @@
 .card-product {
-    width: 90vh;
+    /* width: 90vh; */
     height: 100%;
     overflow-y: scroll;
     display: flex;
