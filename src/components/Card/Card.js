@@ -9,7 +9,7 @@ const Card = ({ data, setChooseProduct, setOnSwitch }) => {
       <div className="card-product">
         {data?.map((item, index) => (
           <div
-            className={selected === index ? "card-body active" : "card-body"}
+            className={`${selected === index ? "active" : ""} card-body`}
             key={index}
             onClick={() => (setChooseProduct(item),setSelected(index),setOnSwitch(prev => !prev))}
           >

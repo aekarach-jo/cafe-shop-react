@@ -20,7 +20,7 @@ const MiddlePage = () => {
             <img src={chooseProduct.image} alt="cover" />
             <div className="product-detail">
               <div className="product-name">{chooseProduct.name}</div>
-              <div className="text-orange-200">{chooseProduct.description}</div>
+              <div className="text-orange-200 description">{chooseProduct.description}</div>
               <div className="text-orange-200">{chooseProduct.ราคา}</div>
               <div className="col-center mt-4">
                 {chooseProduct.additional.map((option, index) => {

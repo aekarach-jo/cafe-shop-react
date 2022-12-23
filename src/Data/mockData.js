@@ -17,7 +17,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -34,7 +34,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -51,7 +51,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -68,7 +68,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -85,7 +85,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -102,7 +102,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -119,7 +119,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -136,7 +136,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -153,7 +153,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -170,7 +170,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -187,7 +187,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -204,7 +204,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -221,7 +221,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -238,7 +238,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -255,7 +255,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -272,7 +272,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -289,7 +289,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -306,7 +306,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -323,7 +323,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -340,7 +340,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -357,7 +357,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -374,7 +374,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -391,7 +391,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -408,7 +408,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -425,7 +425,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -442,7 +442,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -459,7 +459,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -476,7 +476,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -493,7 +493,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
@@ -510,7 +510,7 @@ export const Product = [
     price: 60,
     sweetnessLevel: [
       { level: "ไม่หวาน" },
-      { level: "หวานน้อยมาก" },
+      // { level: "หวานน้อยมาก" },
       { level: "หวานน้อย" },
       { level: "หวานปกติ" },
     ],
