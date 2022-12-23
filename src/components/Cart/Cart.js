@@ -6,6 +6,7 @@ import "./Cart.css";
 const Cart = () => {
   const dispatch = useDispatch();
   const productList = useSelector((state) => state.app.productList);
+  const [onSlideCart, setOnSlideCart] = useState(false);
   const cardRef = useRef(0);
 
   useEffect(() => {
@@ -29,7 +30,6 @@ const Cart = () => {
         <div className="cart-title">
           <p>รายการที่เลือก</p>
         </div>
-
         <div className="cart-body" ref={cardRef}>
           {productList.length > 0 && (
             <>
@@ -65,6 +65,56 @@ const Cart = () => {
             <div className="col-right">2</div>
           </div>
           <button className="success-btn">สร้างบิล</button>
+        </div>
+      </div>
+      <div className="navi-bar" onClick={() => setOnSlideCart((prev) => !prev)}>
+        <div className="bar">
+          <div className={`${
+                !onSlideCart ? "slide-in-blurred-bottom group-cart" : "hidden"
+              } `}>
+            <div className="cart-title">
+              <p>รายการที่เลือก</p>
+            </div>
+            <div className="cart-body" ref={cardRef}>
+              {productList.length > 0 && (
+                <>
+                  {productList?.map((data, index) => (
+                    <div
+                      className="cart-list slide-in-blurred-right"
+                      key={index}
+                    >
+                      <div className="image">
+                        <img src={data.image} alt="image-product" />
+                      </div>
+                      <div className="unit">
+                        <div className="prod-name">{data.name}</div>
+                        <div className="product-unit">
+                          <button className="btn">-</button>
+                          <input className="btn" placeholder="1" />
+                          <button className="btn">+</button>
+                        </div>
+                      </div>
+                      <div className="btn-delete">
+                        <img
+                          src="https://img.icons8.com/color/200/delete-forever.png"
+                          onClick={() => onDeleteProduct(data, index)}
+                          alt="img_delete"
+                        />
+                        <div className="price">{data.price}</div>
+                      </div>
+                    </div>
+                  ))}
+                </>
+              )}
+            </div>
+            <div className="cart-footer">
+              <div className="price-group">
+                <div className="col-left">1</div>
+                <div className="col-right">2</div>
+              </div>
+              <button className="success-btn">สร้างบิล</button>
+            </div>
+          </div>
         </div>
       </div>
     </>
