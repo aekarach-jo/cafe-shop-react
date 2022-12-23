@@ -49,7 +49,7 @@
 @media screen and (max-width: 768px) {
         .product-cover {
                 width: 100%;
-                min-height: 15rem;
+                min-height: 12rem;
                 margin: 0 auto;
                 display: grid;
                 padding: 5px;
