@@ -9,6 +9,21 @@
     align-items: center;
     gap: 2rem;
 }
+
+@media screen and (max-width: 768px) {
+    .card-product {
+        /* width: 90vh; */
+        height: 51vh;
+        overflow-y: scroll;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1.5rem;
+    }
+}
+
 .card-product::-webkit-scrollbar {
     width: 10px;
 }
@@ -37,9 +52,6 @@
     /* box-shadow: 0px 5px 8px 2px rgba(99, 67, 40, 0.6); */
 }
 
-@media screen and (max-width: 768px) {
-
-}
 
 .card-body:hover {
     scale: 0.96;
@@ -82,31 +94,33 @@
     font-size: 15px;
 }
 
-.col-center{
-    display : flex;
+.col-center {
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 5px;
 }
 
-.col-left{
+.col-left {
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
-.col-right{
+
+.col-right {
     display: flex;
     flex-direction: column;
     justify-content: end;
 }
+
 .card-price {
     color: bisque;
     font-size: 18px;
     font-weight: bold;
 }
 
-.btn-add{
+.btn-add {
     width: 3rem;
     height: 1.6rem;
     font-size: 10px;
@@ -115,7 +129,7 @@
     background: #6b390f;
 }
 
-.btn-add:hover{
+.btn-add:hover {
     scale: 1.1;
     background: #472405;
 }
