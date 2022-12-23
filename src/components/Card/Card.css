@@ -13,7 +13,7 @@
 @media screen and (max-width: 768px) {
     .card-product {
         /* width: 90vh; */
-        height:28rem;
+        height:37rem;
         overflow-y: scroll;
         display: flex;
         flex-direction: row;
