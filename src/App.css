@@ -1,6 +1,6 @@
 :root {
   --templateColorA: #ffe4d9;
-  --templateColorB: #ffa58e;
+  --templateColorB: #ff8e8e;
   --templateColorC: #fab3a1;
   --textColor: #ffe4d9;
   --textColorActive: #f29279;
@@ -43,7 +43,7 @@ body {
 
 @media screen and (max-width: 1980px) and (min-width: 1281px){
   .AppGlass{
-    grid-template-columns: 20% 55% auto;
+    grid-template-columns: 15% 60% auto;
   } 
 }
 

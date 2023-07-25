@@ -22,7 +22,7 @@ const Sidebar = () => {
     <>
       <div
         className="bars"
-        style={expanded ? { left: "60%" } : { left: "5%" }}
+        style={expanded ? { left: "60%", transition: '.5s' } : { left: "5%" , transition: '.5s'}}
         onClick={() => setExpanded(!expanded)}
       >
         <UilBars />

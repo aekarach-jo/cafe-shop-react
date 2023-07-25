@@ -74,9 +74,9 @@
 }
 
 .product-cover img {
-        width: 90%;
-        height: 90%;
-        margin: 0 auto;
+        width: 60%;
+        /* height: 60%; */
+        margin: auto auto;
         transition: all 300ms ease;
         /* box-shadow: 0px 19px 60px rgba(255, 255, 255, 0.2); */
 }
