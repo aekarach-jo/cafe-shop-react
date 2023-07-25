@@ -1,30 +1,28 @@
 .middlePage {
         display: grid;
-        /* background: rgba(112, 76, 29, 0.3); */
-        /* box-shadow: 0px 19px 60px rgba(255, 255, 255, 0.7); */
-        /* border-radius: 2rem; */
-        grid-template-rows: 35% 65%;
+        grid-template-rows: 30% 5% 60%;
         overflow: hidden;
-        background: var(--glass);
+        gap: 1rem;
+        background: var(--templateColorB);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
         .middlePage {
                 display: flex;
                 flex-direction: column;
         }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
         .middlePage .description {
                 display: none;
         }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1280px) {
         .middlePage {
                 justify-content: flex-start;
-                margin-top: 2rem;
+                /* margin-top: 2rem; */
         }
 }
 
@@ -38,10 +36,11 @@
         width: 90%;
         margin: 0 auto;
         display: grid;
-        /* box-shadow: 0px 5px 20px rgba(214, 175, 125, 0.4) inset ; */
         grid-template-columns: 50% 50%;
         overflow: hidden;
-        border: rgba(112, 76, 29, 0.7) 1px solid;
+        border-left: var(--border);  
+        border-right: var(--border);  
+        border-bottom: var(--border);  
         border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
 }
@@ -53,19 +52,30 @@
                 margin: 0 auto;
                 display: grid;
                 padding: 5px;
-                /* box-shadow: 0px 5px 20px rgba(214, 175, 125, 0.4) inset ; */
                 grid-template-columns: 50% 50%;
                 overflow: hidden;
-                border: rgba(112, 76, 29, 0) 1px solid;
-                border-bottom: rgba(112, 76, 29, 0.7) 1px solid;
-                border-bottom-left-radius: 20px;
-                border-bottom-right-radius: 20px;
+                border: var(--border);  
+                border-top: none;
+        }
+}
+
+@media screen and (max-width: 1280px) {
+        .product-cover {
+                width: 100%;
+                min-height: 16rem;
+                margin: 0 auto;
+                display: grid;
+                padding: 5px;
+                grid-template-columns: 50% 50%;
+                overflow: hidden;
+                border: var(--border);  
+                border-top: none;
         }
 }
 
 .product-cover img {
-        width: 26rem;
-        height: 20rem;
+        width: 90%;
+        height: 90%;
         margin: 0 auto;
         transition: all 300ms ease;
         /* box-shadow: 0px 19px 60px rgba(255, 255, 255, 0.2); */
@@ -194,39 +204,48 @@
 .product-detail .product-name {
         font-size: 30px;
         font-weight: 600;
-        color: #965f0d;
+        color: var(--textColor);
 }
 
 @media screen and (max-width: 768px) {
         .product-detail .product-name {
                 font-size: 18px;
                 font-weight: 600;
-                color: #965f0d;
         }
 }
 
 .product-detail .btn-add-cart {
         height: 2rem;
         width: 7rem;
-        color: antiquewhite;
-        background: #965f0d;
+        color: var(--textColor);
+        border: var(--border);
         border-radius: 10px;
+        transition: all 300ms;
 }
 
 .product-detail .btn-add-cart:hover {
-        scale: 0.95;
-        color: rgb(252, 246, 238);
-        background: #6b4409;
         border-radius: 15px;
-        transition: all 300ms ease;
+        color: var(--textColorActive);
+        background: var(--templateColorA);
+}
+
+.product-detail .description {
+        color: var(--textColor);
 }
 
 .group-product {
-        padding-top: 2rem;
+        padding-top: 5px;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+}
+
+.group-category {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: start;
 }
 
 @media screen and (max-width: 768px) {

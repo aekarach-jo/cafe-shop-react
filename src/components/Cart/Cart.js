@@ -16,7 +16,6 @@ const Cart = () => {
         top: cardRef.current.scrollHeight,
       });
     }
-    console.log(productList);
   }, [productList]);
 
   function onDeleteProduct(item, index) {
@@ -36,10 +35,10 @@ const Cart = () => {
               {productList?.map((data, index) => (
                 <div className="cart-list slide-in-blurred-right" key={index}>
                   <div className="image">
-                    <img src={data.image} alt="image-product" />
+                    <img src={data.image || 'icon-coffee.png'} alt="pdList" />
                   </div>
                   <div className="unit">
-                    <div className="prod-name">{data.name}</div>
+                    <div className="prod-name">{data.productBase.prodTitle}({data.prodForm})</div>
                     <div className="product-unit">
                       <button className="btn">-</button>
                       <input className="btn" placeholder="1" />
@@ -51,6 +50,7 @@ const Cart = () => {
                       src="https://img.icons8.com/color/200/delete-forever.png"
                       onClick={() => onDeleteProduct(data, index)}
                       alt="img_delete"
+                      style={{ opacity: '0.8'}}
                     />
                     <div className="price">{data.price}</div>
                   </div>
@@ -84,13 +84,13 @@ const Cart = () => {
                       key={index}
                     >
                       <div className="image">
-                        <img src={data.image} alt="image-product" />
+                        <img src={data.image} alt="productList" />
                       </div>
                       <div className="unit">
                         <div className="prod-name">{data.name}</div>
                         <div className="product-unit">
                           <button className="btn">-</button>
-                          <input className="btn" placeholder="1" />
+                          <input className="" placeholder="1" />
                           <button className="btn">+</button>
                         </div>
                       </div>
@@ -108,10 +108,10 @@ const Cart = () => {
               )}
             </div>
             <div className="cart-footer">
-              <div className="price-group">
+              {/* <div className="price-group">
                 <div className="col-left">1</div>
                 <div className="col-right">2</div>
-              </div>
+              </div> */}
               <button className="success-btn">สร้างบิล</button>
             </div>
           </div>

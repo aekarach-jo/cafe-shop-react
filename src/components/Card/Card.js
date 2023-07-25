@@ -3,7 +3,6 @@ import "./Card.css";
 
 const Card = ({ data, setChooseProduct, setOnSwitch }) => {
   const [selected, setSelected] = useState();
-
   return (
     <>
       <div className="card-product">
@@ -14,11 +13,11 @@ const Card = ({ data, setChooseProduct, setOnSwitch }) => {
             onClick={() => (setChooseProduct(item),setSelected(index),setOnSwitch(prev => !prev))}
           >
             <div className="card-img">
-              <img src={item.image} alt="card-img" />
+              <img src={item.image || 'icon-coffee.png'} alt="card-img" />
             </div>
             <div className="card-detail">
               <div className="col-left">
-                <div className="card-name">{item.name}</div>
+                <div className="card-name">{item.productBase.prodTitle}{item.productBase.prodForm}</div>
               </div>
 
               <div className="col-right">

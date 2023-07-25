@@ -26,7 +26,7 @@
     color: var(--pink);
 }
 .logo>span {
-    color: bisque;
+    color: var(--templateColorA);
 }
 
 .logo>img {
@@ -52,10 +52,13 @@
     transition: all 300ms ease;
     border-radius: 0.7rem;
     font-size: 14px;
+    transition: .1s;
 }
 
 .menuItem:hover {
     cursor: pointer;
+    border: var(--border);
+    border-radius: 10px;
 }
 
 .menu .menuItem:last-child {
@@ -64,24 +67,32 @@
     width: 100%;
 }
 
+.menu span {
+    color: var(--textColor);
+    font-weight: 700;
+}
+
+.menu .active span {
+    color: var(--textColorActive);
+}
+
 .active {
-    background: var(--orange);
-    box-shadow: 0px 5px 5px 1px #a18445;
+    background: var(--templateColorA);
+    box-shadow: var(--boxShadow);
     margin-left: 0;
-    color: aliceblue;
 }
 
 .active::before {
     content: "";
     width: 8px;
     height: 100%;
-    background: var(--orange);
-    box-shadow: 0px 5px 5px 1px #a18445;
+    background: var(--templateColorA);
+    box-shadow: var(--boxShadow);
     margin-right: calc(1rem - 8px);
 }
 
 /* Tablets */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1281px) {
     .menuItem>span {
         display: none;
     }
@@ -95,13 +106,15 @@
     .sidebar {
         position: fixed;
         z-index: 9;
-        background: #a18445;
-        box-shadow: 0px 5px 5px 1px #a18445;
+        background: var(--templateColorB);
+        border: var(--border);
+        /* box-shadow: var(--boxShadow); */
         width: 55%;
         padding-right: 1rem;
+        padding-top: 1rem;
+        top: 14px;
         height: 90%;
-        border-top-right-radius: 30px;
-        border-bottom-right-radius: 30px;
+        border-radius: 30px;
     }
 
     .menuItem>span {
@@ -111,6 +124,10 @@
     .logo {
         display: flex;
     }
+
+    .logo>span {
+        font-size: 22px;
+    }    
 
     .menu .menuItem:last-child {
         position: relative;
@@ -122,10 +139,11 @@
         position: fixed;
         top: 2rem;
         left: 60%;
-        /* background: var(); */
         padding: 10px;
         border-radius: 10px;
         z-index: 9;
+        cursor: pointer;
+        color: var(--templateColorA);
     }
 
     .close {

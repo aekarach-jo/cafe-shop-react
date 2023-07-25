@@ -5,10 +5,7 @@ import {
     UilUsersAlt,
     UilPackage,
     UilChart,
-    UilSignOutAlt,
   } from "@iconscout/react-unicons";
-
-  import { UilUsdSquare, UilMoneyWithdrawal } from "@iconscout/react-unicons";
 
   export const SidebarData = [
     {

@@ -1,18 +1,17 @@
 import React, { useState } from "react";
-import { UilBars, UilSignOutAlt } from "@iconscout/react-unicons";
+import { UilBars } from "@iconscout/react-unicons";
 import { motion } from "framer-motion";
 import Logo from "../imgs/icon-coffee.png";
 import { SidebarData } from "../Data/Data";
-import { UilCoffee } from "@iconscout/react-unicons";
 import "./Sidebar.css";
 
 const Sidebar = () => {
-  const [selected, setSelected] = useState();
+  const [selected, setSelected] = useState(1);
   const [expanded, setExpanded] = useState(true);
 
   const sidebarVariants = {
     true: {
-      left: "0",
+      left: "1.5%",
     },
     false: {
       left: "-60%",
@@ -36,7 +35,7 @@ const Sidebar = () => {
         <div className="logo">
           <img src={Logo} alt="logo" />
           <span>
-          <span>K</span>affe <span>P</span>rimo
+            <span>K</span>affe <span>P</span>rimo
           </span>
         </div>
 
@@ -48,7 +47,9 @@ const Sidebar = () => {
                 key={index}
                 onClick={() => setSelected(index)}
               >
-                <item.icon />
+                <span>
+                  <item.icon />
+                </span>
                 <span>{item.heading}</span>
               </div>
             );

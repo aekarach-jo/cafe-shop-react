@@ -2,6 +2,7 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialAppState = {
   productList: [],
+  apiUrl: 'https://meter-earthquake-found-afford.trycloudflare.com'
 };
 
 const appslice = createSlice({
